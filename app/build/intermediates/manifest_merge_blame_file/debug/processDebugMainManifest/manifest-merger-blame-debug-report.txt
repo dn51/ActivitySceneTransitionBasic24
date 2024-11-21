@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2019 Google LLC
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.activityscenetransitionbasic"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="14"
+24        android:targetSdkVersion="32" />
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:19:5-67
+26-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:19:22-64
+27
+28    <application
+28-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:21:5-39:19
+29        android:allowBackup="false"
+29-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:22:9-36
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\dnanda\.gradle\caches\transforms-4\9dd304c5cc01a92db3bac8c86eda71a8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:icon="@drawable/ic_launcher"
+33-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:23:9-45
+34        android:label="@string/app_name"
+34-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:24:9-41
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:25:9-40
+37        <activity
+37-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:28:9-35:20
+38            android:name="com.example.android.activityscenetransitionbasic.MainActivity"
+38-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:29:13-41
+39            android:exported="true" >
+39-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:30:13-36
+40            <intent-filter>
+40-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:31:13-34:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:32:17-69
+41-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:32:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:33:17-77
+43-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:33:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.example.android.activityscenetransitionbasic.DetailActivity" />
+46-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:37:9-52
+46-->C:\Users\dnanda\AndroidStudioProjects\Fall-2024\ActivitySceneTransitionBasic\app\src\main\AndroidManifest.xml:37:19-49
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dnanda\.gradle\caches\transforms-4\d59f78c4f6f3f760592ed93bd3ef2af4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dnanda\.gradle\caches\transforms-4\d59f78c4f6f3f760592ed93bd3ef2af4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+50            android:authorities="com.example.android.activityscenetransitionbasic.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dnanda\.gradle\caches\transforms-4\d59f78c4f6f3f760592ed93bd3ef2af4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dnanda\.gradle\caches\transforms-4\d59f78c4f6f3f760592ed93bd3ef2af4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dnanda\.gradle\caches\transforms-4\d59f78c4f6f3f760592ed93bd3ef2af4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dnanda\.gradle\caches\transforms-4\d59f78c4f6f3f760592ed93bd3ef2af4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dnanda\.gradle\caches\transforms-4\d59f78c4f6f3f760592ed93bd3ef2af4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dnanda\.gradle\caches\transforms-4\c0f51eb3b848df267a69d6e65ab71e60\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dnanda\.gradle\caches\transforms-4\c0f51eb3b848df267a69d6e65ab71e60\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dnanda\.gradle\caches\transforms-4\c0f51eb3b848df267a69d6e65ab71e60\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
